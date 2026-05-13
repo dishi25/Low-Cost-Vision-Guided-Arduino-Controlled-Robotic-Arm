@@ -9,6 +9,7 @@ This project presents a low-cost vision-guided robotic arm system designed for a
 The system demonstrates intelligent automation concepts used in Industry 4.0 and smart manufacturing.
 
 🧠 Technologies Used
+
 Computer Vision
 OpenCV
 Arduino Programming
@@ -28,12 +29,14 @@ Automation & Robotics
 | Sorting Bins      | Object placement           |
 
 💻 Software Requirements
+
 Python
 OpenCV
 Arduino IDE
 PySerial
 
 ⚙️ Working Principle
+
 Webcam captures live video feed.
 OpenCV processes the image.
 Objects are detected and classified.
@@ -47,6 +50,7 @@ Object is placed into the correct sorting bin
 Camera → OpenCV Processing → Classification → Serial Communication → Arduino → Servo Motors → Object Sorting
 
 📊 Features
+
 Real-time object detection
 Automated object sorting
 Vision-guided robotic movement
@@ -54,6 +58,7 @@ Low-cost implementation
 Easy scalability for industrial applications
 
 🚨 Applications
+
 Industrial automation
 Smart manufacturing
 Packaging systems
@@ -62,6 +67,7 @@ Warehouse sorting
 Educational robotics projects
 
 ⚠️ Challenges
+
 Lighting affects image detection accuracy
 Servo calibration required
 Limited object classification capability
@@ -69,6 +75,7 @@ Camera positioning impacts performance
 
 
 🔮 Future Scope
+
 AI/ML-based object recognition
 Conveyor belt integration
 IoT-enabled monitoring
@@ -77,6 +84,7 @@ Wireless robotic control
 Upgrading to 6-DOF robotic arm
 
 🛠️ Skills Gained
+
 Computer Vision with OpenCV
 Embedded Systems Programming
 Arduino Interfacing
@@ -86,9 +94,12 @@ Servo Motor Control
 
 
 👩‍💻 Team
+
 Dishika G
 Gurupriyaa N
+
 📚 References
+
 Arduino Official Documentation
 OpenCV Documentation
 Research Papers on Vision Guided Robotics
