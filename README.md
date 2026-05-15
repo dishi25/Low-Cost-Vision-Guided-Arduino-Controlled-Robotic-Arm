@@ -5,8 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv)
 ![Arduino](https://img.shields.io/badge/Arduino-Embedded%20Systems-00979D?style=for-the-badge&logo=arduino)
-![Automation](https://img.shields.io/badge/Automation-Robotics-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
 ### Intelligent Vision-Based Pick-and-Place Automation System
 
