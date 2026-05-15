@@ -1,4 +1,4 @@
-##  Arduino Servo Tracking Module (.ino)
+## <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="24"> Arduino Servo Tracking Module (.ino)
 
 
 ---
