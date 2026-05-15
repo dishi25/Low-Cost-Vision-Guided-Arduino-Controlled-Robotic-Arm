@@ -1,149 +1,261 @@
-## Low-Cost Vision Guided Arduino Controlled Robotic Arm
-A smart automation project that combines computer vision and embedded control to detect, classify, and sort objects automatically using a robotic arm.
+# <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" width="35"> Low-Cost Vision-Guided Robotic Arm for Automated Object Sorting
 
-**Project Overview** <br>
-- This project presents a low-cost vision-guided robotic arm system designed for automated object sorting. A webcam captures real-time images of objects placed in the workspace, and OpenCV processes the images to identify objects based on features such as color or shape. The detected result is sent to an Arduino, which controls servo motors to move the robotic arm and place the object into the correct sorting bin.
+<div align="center">
 
-The system demonstrates intelligent automation concepts used in Industry 4.0 and smart manufacturing.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv)
+![Arduino](https://img.shields.io/badge/Arduino-Embedded%20Systems-00979D?style=for-the-badge&logo=arduino)
+![Automation](https://img.shields.io/badge/Automation-Robotics-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-**Technologies Used**
+### Intelligent Vision-Based Pick-and-Place Automation System
 
-- Computer Vision
+</div>
 
-- OpenCV
+---
 
-- Arduino Programming
+## <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" width="22"> Project Overview
 
-- Embedded Systems
+This project presents a **low-cost vision-guided robotic arm system** capable of performing real-time **object detection, classification, and automated sorting** using computer vision and embedded control.
 
-- Servo Motor Control
+A webcam continuously monitors the workspace while OpenCV-based image processing identifies objects based on visual characteristics such as color, contour, and shape. The processed data is transmitted to an Arduino through serial communication, enabling precise control of servo motors for robotic pick-and-place operations.
 
-- Serial Communication
+The system demonstrates concepts used in:
 
-- Automation & Robotics
+- Industry 4.0
+- Smart Manufacturing
+- Industrial Automation
+- Intelligent Robotics
+- Machine Vision Systems
 
+---
 
-🧩 Hardware Components
-| Component         | Purpose                    |
-| ----------------- | -------------------------- |
-| Arduino Uno/Mega  | Main controller            |
-| 4-DOF Robotic Arm | Pick-and-place mechanism   |
-| Servo Motors      | Joint and gripper movement |
-| USB Webcam        | Captures workspace images  |
-| Power Supply      | System power               |
-| Sorting Bins      | Object placement           |
+## <img src="https://cdn-icons-png.flaticon.com/512/3523/3523887.png" width="22"> Key Features
 
-💻 **Software Requirements**
+- Real-time object detection and tracking
+- Automated robotic pick-and-place operation
+- Vision-guided servo motor control
+- Low-cost and scalable architecture
+- Embedded serial communication system
+- Intelligent sorting mechanism
+- Modular and upgrade-friendly design
 
-- Python
+---
 
-- OpenCV
+## <img src="https://cdn-icons-png.flaticon.com/512/2721/2721297.png" width="22"> Tech Stack
 
-- Arduino IDE
+<div align="center">
 
-- PySerial
+| Technology | Description |
+|---|---|
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"><br>Python | Core programming language |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="40"><br>OpenCV | Computer vision and image processing |
+| <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="40"><br>Arduino | Embedded system controller |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40"><br>C++ | Arduino firmware programming |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="40"><br>NumPy | Numerical computations |
+| <img src="https://img.icons8.com/fluency/48/serial-tasks.png" width="40"><br>PySerial | Serial communication |
+| <img src="https://img.icons8.com/fluency/48/robot-2.png" width="40"><br>Servo Control | Robotic arm actuation |
 
-⚙️ **Working Principle**
+</div>
 
-- Webcam captures live video feed.
+---
 
-- OpenCV processes the image.
+## <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" width="22"> Hardware Components
 
-- Objects are detected and classified.
+| Component | Function |
+|---|---|
+| Arduino Uno / Mega | Main embedded controller |
+| 4-DOF Robotic Arm | Pick-and-place mechanism |
+| Servo Motors | Joint and gripper actuation |
+| USB / IP Webcam | Real-time workspace monitoring |
+| External Power Supply | Stable system power delivery |
+| Sorting Bins | Object segregation |
 
-- Python sends classification data to Arduino through serial communication.
+---
 
-- Arduino controls servo motors.
+## <img src="https://cdn-icons-png.flaticon.com/512/1006/1006363.png" width="22"> Software Requirements
 
-- Robotic arm picks the object.
+<div align="center">
 
-- Object is placed into the correct sorting bin
+| Requirement | Purpose |
+|---|---|
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"><br>Python 3.x | Main software environment |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="40"><br>OpenCV | Object detection and tracking |
+| <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="40"><br>Arduino IDE | Arduino programming and uploading |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="40"><br>NumPy | Matrix and array operations |
+| <img src="https://img.icons8.com/fluency/48/serial-tasks.png" width="40"><br>PySerial | Python-Arduino communication |
+| <img src="https://img.icons8.com/color/48/artificial-intelligence.png" width="40"><br>Imutils | Image processing utilities |
 
-🔌 **System Architecture**
+</div>
 
-Camera → OpenCV Processing → Classification → Serial Communication → Arduino → Servo Motors → Object Sorting
+### Installation
 
-📊 **Features**
+```bash
+pip install opencv-python pyserial numpy imutils
+```
 
-- Real-time object detection
+---
 
-- Automated object sorting
+## <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="22"> Fields
 
-- Vision-guided robotic movement
+<div align="center">
 
-- Low-cost implementation
+| Field | Domain |
+|---|---|
+| <img src="https://img.icons8.com/color/48/motherboard.png" width="40"><br>Embedded Systems | Hardware-software interfacing and control |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="40"><br>OpenCV | Real-time image processing |
+| <img src="https://img.icons8.com/color/48/computer-vision.png" width="40"><br>Computer Vision | Object detection and visual tracking |
+| <img src="https://img.icons8.com/fluency/48/robot-2.png" width="40"><br>Robotics & Automation | Intelligent robotic control systems |
 
-- Easy scalability for industrial applications
+</div>
 
+---
 
-🚨 **Applications**
+## <img src="https://cdn-icons-png.flaticon.com/512/1827/1827933.png" width="22"> System Workflow
 
-- Industrial automation
+```text
+Camera Feed
+      ↓
+OpenCV Image Processing
+      ↓
+Object Detection & Classification
+      ↓
+Serial Communication (Python → Arduino)
+      ↓
+Servo Motor Control
+      ↓
+Robotic Pick-and-Place Operation
+      ↓
+Automated Object Sorting
+```
 
-- Smart manufacturing
+---
 
-- Packaging systems
+## <img src="https://cdn-icons-png.flaticon.com/512/2620/2620999.png" width="22"> System Architecture
 
-- Recycling systems
+```text
+┌──────────────┐
+│   Webcam     │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ OpenCV + AI  │
+│ Image Engine │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ Python Logic │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ Serial Comm  │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   Arduino    │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ Servo Motors │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ Object Sort  │
+└──────────────┘
+```
 
-- Warehouse sorting
+---
 
-- Educational robotics projects
+## <img src="https://cdn-icons-png.flaticon.com/512/2920/2920349.png" width="22"> Applications
 
+- Industrial Automation
+- Smart Manufacturing Systems
+- Packaging and Sorting Lines
+- Recycling Automation
+- Warehouse Management
+- Educational Robotics
+- Intelligent Conveyor Systems
 
-⚠️ **Challenges**
+---
 
-- Lighting affects image detection accuracy
+## <img src="https://cdn-icons-png.flaticon.com/512/595/595067.png" width="22"> Engineering Challenges
 
-- Servo calibration required
+- Lighting conditions affect detection accuracy
+- Servo calibration impacts positioning precision
+- Camera placement influences tracking stability
+- Mechanical vibration reduces repeatability
+- Limited classification capability for complex objects
 
-- Limited object classification capability
+---
 
-- Camera positioning impacts performance
-
-
-
-🔮 **Future Scope**
+## <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="22"> Future Enhancements
 
 - AI/ML-based object recognition
-
 - Conveyor belt integration
-
-- IoT-enabled monitoring
-
-- Multi-object detection
-
+- Multi-object simultaneous detection
 - Wireless robotic control
+- IoT-enabled monitoring dashboard
+- Upgrade to industrial-grade 6-DOF robotic arm
+- Reinforcement learning-based grasp optimization
 
-- Upgrading to 6-DOF robotic arm
+---
 
-
-🛠️ **Skills Gained**
+## <img src="https://cdn-icons-png.flaticon.com/512/2721/2721279.png" width="22"> Skills Demonstrated
 
 - Computer Vision with OpenCV
-
-- Embedded Systems Programming
-
+- Embedded Systems Development
 - Arduino Interfacing
-
-- Robotics & Automation
-
-- Serial Communication
-
+- Robotics and Automation
+- Serial Communication Protocols
 - Servo Motor Control
+- Real-Time Image Processing
 
+---
 
+## <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" width="22"> Project Structure
 
-👩‍💻 **Team**
+```bash
+├── Arduino_Code/
+│   └── robotic_arm_control.ino
+│
+├── Python_Vision_System/
+│   └── vision_guided_sorting.py
+│
+├── Images/
+│   └── system_demo.png
+│
+├── README.md
+└── requirements.txt
+```
 
-- Dishika G @dishi25
+---
 
-- Gurupriyaa N @Gurupriyaa-28
+## <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="22"> Team
 
-📚 **References**
+### Developers
+
+- **Dishika G** — [@dishi25](https://github.com/dishi25)
+- **Gurupriyaa N** — [@Gurupriyaa-28](https://github.com/Gurupriyaa-28)
+
+---
+
+## <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" width="22"> References
 
 - Arduino Official Documentation
+- OpenCV Official Documentation
+- Research Papers on Vision-Guided Robotics
+- Embedded Automation System Design Resources
 
-- OpenCV Documentation
+---
 
-- Research Papers on Vision Guided Robotics
+## <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" width="22"> Project Vision
+
+This project demonstrates how low-cost embedded systems and computer vision can be integrated to build scalable robotic systems inspired by modern industrial automation and smart manufacturing environments.
+
+---
+
+<div align="center">
+  
+## Thank you
+
+</div>
