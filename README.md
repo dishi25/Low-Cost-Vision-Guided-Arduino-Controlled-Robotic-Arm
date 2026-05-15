@@ -215,13 +215,13 @@ Automated Object Sorting
 ## <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" width="22"> Project Structure
 
 ```bash
-├── Arduino_Code/
+├── Hardware/
 │   └── robotic_arm_control.ino
 │
-├── Python_Vision_System/
+├── Code/
 │   └── vision_guided_sorting.py
 │
-├── Images/
+├── Media/
 │   └── system_demo.png
 │
 ├── README.md
